@@ -8,6 +8,7 @@ class Triangle
   
   def kind
     if @length1 + @length2 =< @length3 ||@length1 + @length3 =< @length2 || @length2 + @length3 =< @length1
+    elsif
       
     elsif @length1 == @length2 && @length2 == @length3
       return :equilateral
